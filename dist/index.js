@@ -17,7 +17,7 @@ app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 // CORS configuration
 app.use((0, cors_1.default)({
-    origin: 'http://localhost:5173', // Ensure no trailing slash
+    origin: 'https://taskifyco.vercel.app', // Ensure no trailing slash
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true // Allow credentials (cookies, authorization headers, etc.)
 }));
